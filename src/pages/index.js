@@ -15,6 +15,10 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link>
+    <div style={{ color: `purple` }}>
+      <Link to="/about/">Contact</Link>
+      <p>What a world.</p>
+    </div>
   </Layout>
 )
 
